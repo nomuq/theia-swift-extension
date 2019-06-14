@@ -1,8 +1,13 @@
 {
   "name": "@theia/swift",
+  "description": "Theia - Swift Extension",
+  "license": "Apache-2.0",
   "keywords": [
     "theia-extension"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "files": [
     "lib",
@@ -23,7 +28,8 @@
   },
   "theiaExtensions": [
     {
-      "frontend": "lib/browser/swift-frontend-module"
+      "frontend": "lib/browser/swift-frontend-module",
+      "backend": "lib/node/swift-backend-module"
     }
   ]
 }
