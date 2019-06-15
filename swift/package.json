@@ -1,5 +1,6 @@
 {
   "name": "@theia/swift",
+  "version": "0.0.0",
   "description": "Theia - Swift Extension",
   "license": "Apache-2.0",
   "keywords": [
@@ -8,7 +9,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.0",
   "files": [
     "lib",
     "src"

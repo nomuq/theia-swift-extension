@@ -2,8 +2,11 @@
   "private": true,
   "scripts": {
     "prepare": "lerna run prepare",
+    "build": "lerna run build",
     "rebuild:browser": "theia rebuild:browser",
-    "rebuild:electron": "theia rebuild:electron"
+    "rebuild:electron": "theia rebuild:electron",
+    "publish:latest": "lerna publish --registry=https://registry.npmjs.org/ --exact --skip-git",
+    "publish:next": "lerna publish --registry=https://registry.npmjs.org/ --exact --canary=next --npm-tag=next --force-publish --skip-git --yes"
   },
   "devDependencies": {
     "lerna": "2.4.0"
